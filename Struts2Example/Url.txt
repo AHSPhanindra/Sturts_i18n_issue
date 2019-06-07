@@ -1,0 +1,9 @@
+Access point: http://localhost:8181/Struts2Example/locale.action?request_locale=zh_CN
+
+This source code is developed based on below url, but had some changes after upgrading to 2.5.x
+https://www.mkyong.com/struts2/struts-2-chinese-localization-issue/
+ 
+ 
+ Note: 
+ 1) <s:actionError> giving bullet point highlighted text, where action class passes value by normatl gettext(global.value)
+ 2) To avoid bullet point highlight text, pass global.value directly to the text filed name=%{actionError} which will get the prop value.
